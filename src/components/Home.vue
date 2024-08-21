@@ -1,4 +1,5 @@
 <template>
+  <!-- hero section -->
   <div class="bg-theme-primary">
     <v-container class="py-16">
       <v-row no-gutters class="justify-center text-center align-center">
@@ -21,6 +22,8 @@
       </v-row>
     </v-container>
   </div>
+  <!-- /hero section -->
+  <!-- database section -->
   <div class="text-center text-black bg-light px-15">
     <v-container class="py-16">
       <h1 class="text-theme-primary mb-16 font-pt-serif">China AI Database</h1>
@@ -37,6 +40,8 @@
       </v-row>
     </v-container>
   </div>
+  <!-- /database section -->
+  <!-- latest analysis section -->
   <div class="bg-theme-primary-light px-16">
     <v-container class="pa-16">
       <h1 class="mb-16 text-center font-pt-serif">Latest Analysis</h1>
@@ -75,6 +80,7 @@
       </v-row>
     </v-container>
   </div>
+  <!-- /latest analysis section -->
 </template>
 
 <script>
