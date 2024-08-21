@@ -9,12 +9,14 @@ import { createRouter, createWebHistory } from "vue-router/auto";
 // import { routes } from "vue-router/auto-routes";
 import Home from "@/components/Home.vue";
 import Database from "@/components/Database.vue";
+import Subscribe from "@/components/Subscribe.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     { path: "/", component: Home },
     { path: "/database", component: Database },
+    { path: "/subscribe", component: Subscribe },
   ],
 });
 

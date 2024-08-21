@@ -25,7 +25,7 @@
             <a href="#" class="text-white text-decoration-none pa-3"
               >Insights
             </a>
-            <a href="#" class="text-white text-decoration-none pa-3"
+            <a href="/subscribe" class="text-white text-decoration-none pa-3"
               >Subscribe
             </a>
           </div>
