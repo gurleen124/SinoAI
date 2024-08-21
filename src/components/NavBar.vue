@@ -17,11 +17,11 @@
           <div
             class="text-end text-h5 text-uppercase font-weight-medium font-quicksand"
           >
-            <span class="pa-3">Home</span>
-            <span class="pa-3">About</span>
-            <span class="pa-3">Database</span>
-            <span class="pa-3">Insights </span>
-            <span class="pa-3">Subscribe </span>
+            <a href="#" class="text-white text-decoration-none pa-3">Home</a>
+            <a href="#" class="text-white text-decoration-none pa-3">About</a>
+            <a href="#" class="text-white text-decoration-none pa-3">Database</a>
+            <a href="#" class="text-white text-decoration-none pa-3">Insights </a>
+            <a href="#" class="text-white text-decoration-none pa-3">Subscribe </a>
           </div>
         </v-col>
       </v-row>
