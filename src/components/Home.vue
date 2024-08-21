@@ -3,12 +3,14 @@
     <v-container class="py-16">
       <v-row no-gutters class="justify-center text-center align-center">
         <v-col md="6">
-          <h1 class="fs-30 mb-6">
+          <h1 class="fs-30 mb-6 font-pt-serif">
             China AI Policy Insights for Global Leaders
           </h1>
-          <p>Comprehensive analysis and advisory on China's AI landscape</p>
+          <p class="text-h6 font-open-sans font-weight-regular">
+            Comprehensive analysis and advisory on China's AI landscape
+          </p>
           <v-text-field
-            class="mt-10"
+            class="mt-10 mx-md-16"
             append-inner-icon="mdi-magnify"
             density="compact"
             placeholder="Discover China AI policies and analysis"
@@ -19,9 +21,9 @@
       </v-row>
     </v-container>
   </div>
-  <div class="text-center text-black bg-light">
+  <div class="text-center text-black bg-light px-15">
     <v-container class="py-16">
-      <h1 class="text-theme-primary mb-16">China AI Database</h1>
+      <h1 class="text-theme-primary mb-16 font-pt-serif">China AI Database</h1>
       <v-row>
         <v-col
           v-for="(message, index) in blogPosts"
@@ -35,14 +37,14 @@
       </v-row>
     </v-container>
   </div>
-  <div class="bg-theme-primary-light">
-    <v-container class="py-16">
-      <h1 class="mb-16 text-center">Latest Analysis</h1>
+  <div class="bg-theme-primary-light px-16">
+    <v-container class="pa-16">
+      <h1 class="mb-16 text-center font-pt-serif">Latest Analysis</h1>
       <v-row class="mb-16">
         <v-col md="6" cols="12">
           <v-img src="../assets/img-placeholder.png" class="mb-10"></v-img>
           <h3 class="mb-4">Analysis 2</h3>
-          <p>Description...</p>
+          <p class="font-pt-serif">Description...</p>
         </v-col>
         <v-col md="1" cols="0" class="border-opacity-75 border-e-sm"> </v-col>
         <v-col
@@ -52,11 +54,11 @@
         >
           <div class="mb-16">
             <h3 class="mb-4">Analysis 2</h3>
-            <p>Description...</p>
+            <p class="font-pt-serif">Description...</p>
           </div>
           <div class="mb-16">
             <h3 class="mb-4">Analysis 2</h3>
-            <p>Description...</p>
+            <p class="font-pt-serif">Description...</p>
           </div>
         </v-col>
       </v-row>

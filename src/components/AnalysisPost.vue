@@ -1,6 +1,6 @@
 <template>
   <div class="text-start">
-    <h3 class="mb-2">Subject 1</h3>
+    <h3 class="mb-2 font-pt-serif">Subject 1</h3>
     <v-img
       aspect-ratio="16/9"
       src="../assets/img-placeholder.png"
@@ -9,15 +9,15 @@
     <div class="px-md-6">
       <div class="mb-16">
         <h3 class="mb-4">Analysis 1</h3>
-        <p>Description...</p>
+        <p class="font-pt-serif">Description...</p>
       </div>
       <div class="mb-16">
         <h3 class="mb-4">Analysis 1</h3>
-        <p>Description...</p>
+        <p class="font-pt-serif">Description...</p>
       </div>
       <div class="mb-16">
         <h3 class="mb-4">Analysis 1</h3>
-        <p>Description...</p>
+        <p class="font-pt-serif">Description...</p>
       </div>
     </div>
   </div>

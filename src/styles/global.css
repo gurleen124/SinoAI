@@ -1,3 +1,16 @@
+body,
+.font-open-sans {
+  font-family: "Open Sans", serif !important;
+}
+
+.font-quicksand {
+  font-family: "Quicksand", sans-serif !important;
+}
+
+.font-pt-serif {
+  font-family: "PT Serif", serif !important;
+}
+
 .bg-theme-primary {
   background-color: #0a2458 !important;
 }

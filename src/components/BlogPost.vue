@@ -1,6 +1,8 @@
 <template>
   <div>
-    <h3 class="text-start mx-md-6">{{ category }}</h3>
+    <p class="text-start mx-md-6 text-h6 font-open-sans font-weight-bold">
+      {{ category }}
+    </p>
     <hr class="border-b-0" />
     <hr height="50px" class="d-inline" />
     <div class="mx-md-4 text-start">

@@ -15,5 +15,19 @@ import { createVuetify } from "vuetify";
 export default createVuetify({
   theme: {
     defaultTheme: "dark",
+    themes: {
+      dark: {
+        colors: {
+          primary: "#1976D2",
+        },
+      },
+    },
+  },
+  defaults: {
+    global: {
+      style: {
+        fontFamily: "PT serif, open sans, Quicksand, Roboto, sans-serif", // Add your custom font family here
+      },
+    },
   },
 });

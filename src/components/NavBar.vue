@@ -1,56 +1,30 @@
 <template>
   <v-app-bar
     height="auto"
-    class="py-12 text-white position-relative"
-    style="box-shadow: none; background-color: #0a2458"
+    class="py-12 px-16 text-white position-relative bg-theme-primary"
+    elevation="0"
   >
-    <!-- SinoAI Logo -->
-    <v-img
-      src="./../assets/sinoAI.png"
-      :width="140"
-      :height="192"
-      @click.stop="drawer = !drawer"
-    ></v-img>
-    <!-- Navigation Menu -->
-    <v-spacer></v-spacer>
-
-    <template v-if="$vuetify.display.mdAndUp">
-      <v-btn text class="px-6 text-subtitle-2 text-uppercase">Home</v-btn>
-      <v-btn text class="px-6 text-subtitle-2 text-uppercase">About</v-btn>
-      <v-btn text class="px-6 text-subtitle-2 text-uppercase">Database</v-btn>
-      <v-btn text class="px-6 text-subtitle-2 text-uppercase">Insights</v-btn>
-      <v-btn text class="px-6 text-subtitle-2 text-uppercase">Subscribe</v-btn>
-    </template>
+    <v-container class="px-16">
+      <v-row no-gutters class="align-center">
+        <v-col cols="12" md="6">
+          <v-img
+            src="./../assets/sinoAI.png"
+            :width="140"
+            :height="192"
+          ></v-img>
+        </v-col>
+        <v-col cols="12" md="6">
+          <div
+            class="text-end text-h5 text-uppercase font-weight-medium font-quicksand"
+          >
+            <span class="pa-3">Home</span>
+            <span class="pa-3">About</span>
+            <span class="pa-3">Database</span>
+            <span class="pa-3">Insights </span>
+            <span class="pa-3">Subscribe </span>
+          </div>
+        </v-col>
+      </v-row>
+    </v-container>
   </v-app-bar>
-
-  <!-- Navigation Drawer for Mobile -->
-  <v-navigation-drawer
-    v-model="drawer"
-    :location="$vuetify.display.mobile ? 'bottom' : undefined"
-    temporary
-  >
-    <v-list :items="items"></v-list>
-  </v-navigation-drawer>
 </template>
-
-<script>
-export default {
-  data: () => ({
-    drawer: false,
-    group: null,
-    items: [
-      { title: "Home", value: "home" },
-      { title: "About", value: "about" },
-      { title: "Database", value: "database" },
-      { title: "Insights", value: "insights" },
-      { title: "Subscribe", value: "subscribe" },
-    ],
-  }),
-
-  watch: {
-    group() {
-      this.drawer = false;
-    },
-  },
-};
-</script>
