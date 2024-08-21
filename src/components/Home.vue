@@ -68,13 +68,13 @@
         </v-col>
       </v-row>
       <v-row>
-        <v-col md="4" cols="12" class="pa-6">
+        <v-col md="4" cols="12">
           <AnalysisPost />
         </v-col>
-        <v-col md="4" cols="12" class="pa-6">
+        <v-col md="4" cols="12">
           <AnalysisPost />
         </v-col>
-        <v-col md="4" cols="12" class="pa-6">
+        <v-col md="4" cols="12">
           <AnalysisPost />
         </v-col>
       </v-row>

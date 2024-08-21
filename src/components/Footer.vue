@@ -1,7 +1,7 @@
 <template>
-  <v-footer class="py-16 bg-theme-primary">
-    <v-row class="d-flex align-center">
-      <v-col cols="12" md="2" class="ps-16">
+  <v-footer class="pa-16 bg-theme-primary">
+    <v-row class="d-flex align-center px-16">
+      <v-col cols="12" md="2">
         <v-img src="./../assets/sinoAI.png" :width="140" :height="192"></v-img
       ></v-col>
       <v-col cols="12" md="4">
