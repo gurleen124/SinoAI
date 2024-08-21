@@ -13,22 +13,22 @@
       </v-col>
       <v-col cols="12" md="6">
         <v-row no-gutters class="justify-lg-space-around">
-          <h2
+          <span
             v-for="link in links"
             :key="link"
-            class="mx-2 font-weight-medium text-uppercase"
+            class="mx-2 text-h5 font-weight-medium text-uppercase font-quicksand"
             variant="text"
           >
             {{ link }}
-          </h2>
+          </span>
         </v-row></v-col
       >
 
-      <v-col cols="12" class="mt-6">
+      <v-col cols="12" class="mt-6 text-caption font-open-sans">
         @{{ new Date().getFullYear() }} —
-        <strong
+        <span
           >SinoAI Advisory. All rights reserved. Privacy Policy and Terms of
-          Use.</strong
+          Use.</span
         >
       </v-col>
     </v-row>

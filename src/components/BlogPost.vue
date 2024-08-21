@@ -8,17 +8,20 @@
     <div class="mx-md-4 text-start">
       <v-img
         aspect-ratio="16/9"
+        width="430px"
+        height="275px"
+        class="mb-5"
         cover
-        src="../assets/img-placeholder.png"
+        :src="img"
       ></v-img>
-      <h4>Document 1</h4>
-      <p>...</p>
+      <h4>{{ doc1 }}</h4>
+      <p class="text-truncate">{{ desc1 }}</p>
       <hr class="my-3" />
-      <h4>Document 2</h4>
-      <p>...</p>
+      <h4>{{ doc2 }}</h4>
+      <p class="text-truncate">{{ desc2 }}</p>
       <hr class="my-3" />
-      <h4>Document 3</h4>
-      <p>...</p>
+      <h4>{{ doc3 }}</h4>
+      <p class="text-truncate">{{ desc3 }}</p>
     </div>
   </div>
 </template>
@@ -27,6 +30,34 @@
 export default {
   props: {
     category: {
+      type: String,
+      required: true,
+    },
+    img: {
+      type: String,
+      required: true,
+    },
+    doc1: {
+      type: String,
+      required: true,
+    },
+    desc1: {
+      type: String,
+      required: true,
+    },
+    doc2: {
+      type: String,
+      required: true,
+    },
+    desc2: {
+      type: String,
+      required: true,
+    },
+    doc3: {
+      type: String,
+      required: true,
+    },
+    desc3: {
       type: String,
       required: true,
     },
