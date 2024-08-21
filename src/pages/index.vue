@@ -1,6 +1,4 @@
-<template>
-  <Main />
-</template>
+<template></template>
 
 <script lang="ts" setup>
 //

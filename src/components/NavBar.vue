@@ -1,7 +1,7 @@
 <template>
   <v-app-bar
     height="auto"
-    class="py-12 text-white"
+    class="py-12 text-white position-relative"
     style="box-shadow: none; background-color: #0a2458"
   >
     <!-- SinoAI Logo -->
