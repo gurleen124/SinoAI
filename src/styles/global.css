@@ -1,0 +1,19 @@
+.bg-theme-primary {
+  background-color: #0a2458 !important;
+}
+
+.bg-theme-primary-light {
+  background-color: #213459;
+}
+
+.text-theme-primary {
+  color: #213459;
+}
+
+.bg-light {
+  background-color: #f5f4ee;
+}
+
+.fs-30 {
+  font-size: 30px;
+}
