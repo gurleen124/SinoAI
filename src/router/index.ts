@@ -8,10 +8,14 @@
 import { createRouter, createWebHistory } from "vue-router/auto";
 // import { routes } from "vue-router/auto-routes";
 import Home from "@/components/Home.vue";
+import Database from "@/components/Database.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  routes: [{ path: "/", component: Home }],
+  routes: [
+    { path: "/", component: Home },
+    { path: "/database", component: Database },
+  ],
 });
 
 // Workaround for https://github.com/vitejs/vite/issues/11804
